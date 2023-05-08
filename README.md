@@ -10,7 +10,7 @@ A simple and customizable command-line password generator written in Python.
 
 1. Clone the repository
 ```bash
-git clone g
+git clone git@github.com:christian-gama/pwdgen.git
 ```
 
 2. Make the `pwdgen.py` script executable by running:
