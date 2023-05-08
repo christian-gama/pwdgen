@@ -1,4 +1,3 @@
-# Password Generator
 
 A simple and customizable command-line password generator written in Python.
 
@@ -32,8 +31,10 @@ pwdgen -l 16 -u -d -n -s
 ```
 
 ## Command-line options
--l, --length: Length of the password (default: 16).
--u, --uppercase: Include uppercase letters (default: false).
--d, --lowercase: Include lowercase letters (default: false).
--n, --numbers: Include numbers (default: false).
--s, --symbols: Include symbols (default: false).
+| Short Option | Long Option  | Description                      | Default Value |
+|--------------|--------------|----------------------------------|---------------|
+| -l           | --length     | Length of the password           | 16            |
+| -u           | --uppercase  | Include uppercase letters        | false         |
+| -d           | --lowercase  | Include lowercase letters        | false         |
+| -n           | --numbers    | Include numbers                  | false         |
+| -s           | --symbols    | Include symbols                  | false         |
