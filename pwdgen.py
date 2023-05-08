@@ -6,7 +6,7 @@ from generator.password_generator import password_generator
 def main():
     parser = argparse.ArgumentParser(description="A password generator.")
 
-    parser.add_argument('-l', '--length', required=True, help='Password length')
+    parser.add_argument('-l', '--length', help='Password length', default=16,)
     parser.add_argument('-u', '--uppercase', action='store_true', help='Include uppercase letters')
     parser.add_argument('-d', '--lowercase', action='store_true', help='Include lowercase letters')
     parser.add_argument('-n', '--numbers', action='store_true', help='Include numbers')
